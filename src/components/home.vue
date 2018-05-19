@@ -1,6 +1,6 @@
 
 <template>
-    <div>
+    <div calss='pd350'>
         <Nav ref="nav"></Nav>
         <h1>home</h1>
         <p>{{msg}}</p>
@@ -22,3 +22,8 @@ export default {
   }
 };
 </script>
+<style>
+.pd350{
+  padding: 0 350px;
+}
+</style>
