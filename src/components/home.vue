@@ -1,9 +1,7 @@
-import { Button, Select } from 'element-ui';
 
 <template>
     <div>
         <Nav ref="nav"></Nav>
-        <el-button>默认按钮</el-button>
         <h1>home</h1>
         <p>{{msg}}</p>
     </div>
