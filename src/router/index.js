@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import home from '../components/home.vue'
-import about from '../components/about.vue'
+import kind from '../components/kind.vue'
 import share from '../components/share.vue'
 import more from '../components/more.vue'
 
@@ -20,8 +20,8 @@ export default new Router({
       component: home
     },
     {
-      path: '/about',
-      component: about
+      path: '/kind',
+      component: kind
     },
     {
       path: '/share',

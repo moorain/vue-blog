@@ -3,7 +3,7 @@ import { Button, Select } from 'element-ui';
 <template>
     <div>
         <Nav ref="nav"></Nav>
-        <h1>about</h1>
+        <h1>kind</h1>
         <p>{{msg}}</p>
     </div>
 </template>
@@ -18,7 +18,7 @@ export default {
   },
   data () {
     return {
-      msg: "我是about 组件"
+      msg: "kind 组件"
     };
   }
 };

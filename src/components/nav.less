@@ -1,0 +1,43 @@
+.main-nav {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    .header-line {
+        background: url("../assets/header-lines.png") no-repeat center;
+        height: 40px;
+        background-color: #fff;
+    }
+}
+
+.main-nav ul {
+    display: inline-block;
+    height: 20px;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.main-nav li {
+    width: 50px;
+    margin: 0 16px;
+    .main-nav-item {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
+        &:hover {
+            color: #00aaee;
+        }
+    }
+    &:nth-child(1) {
+        list-style: none;
+    }
+}
+
+.nav-header{
+    h1{
+        margin-bottom: 5px;
+    }
+    p{
+        margin-bottom: 50px;
+    }
+}
+
