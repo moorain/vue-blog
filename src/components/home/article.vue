@@ -10,11 +10,11 @@
 </template>
 
 <script>
-import "./article.less";
-
 export default {
-//   data () {},
   props: ["ArticleList", "logo"]
 };
-// console.log({{ArticleList}})
 </script>
+
+<style>
+    @import './article.less';
+</style>

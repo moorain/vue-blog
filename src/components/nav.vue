@@ -19,7 +19,6 @@
 </template>
 
 <script>
-import "./nav.less";
 import { nav } from "../User";
 export default {
   data () {
@@ -29,3 +28,7 @@ export default {
   }
 };
 </script>
+
+<style lang="less">
+  @import './nav.less';
+</style>
