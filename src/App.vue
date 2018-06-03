@@ -1,7 +1,7 @@
 <template>
   <div id="app">
      <!-- <header> -->
-      <!-- router-link 定义点击后导航到哪个路径下 -->
+      <!-- router-link 定义点击后导航到哪个路径下1 -->
       <!-- <router-link to="/home">Home</router-link>
       <router-link to="/about">About</router-link> -->
        <!-- 对应的组件内容渲染到router-view中 -->
