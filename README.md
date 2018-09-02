@@ -1,10 +1,4 @@
-# Vue学习记录
 
-> Vue自学之路
-
-## Build Setup
-
-##### 使用vue搭建一个个人博客，记录过程。
 
 ``` bash
 # install dependencies
