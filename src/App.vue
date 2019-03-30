@@ -1,28 +1,28 @@
 <template>
   <div id="app">
-     <!-- <header> -->
-      <!-- router-link 定义点击后导航到哪个路径下1 -->
-      <!-- <router-link to="/home">Home</router-link>
-      <router-link to="/about">About</router-link> -->
-       <!-- 对应的组件内容渲染到router-view中 -->
-    <!-- </header> -->
-     <router-view></router-view>
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
+import HelloWorld from './components/HelloWorld.vue'
+
 export default {
-  name: 'App'
+  name: 'app',
+  components: {
+    HelloWorld
+  }
 }
 </script>
 
 <style>
 #app {
-  font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
+  text-align: center;
   color: #2c3e50;
-  padding: 0 20%;
+  margin-top: 60px;
 }
 </style>
