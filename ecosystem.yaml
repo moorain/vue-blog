@@ -7,7 +7,7 @@ apps:
       NODE_ENV: production
 deploy:
   production:
-    user: local-test
+    user: rn_mannager
     host:
       - 120.26.235.4
     port: '39999'
