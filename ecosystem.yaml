@@ -12,7 +12,7 @@ deploy:
       - 120.26.235.4
     port: '39999'
     ref: origin/master
-    repo: git@github.com:moorain/vue-learning-notes.git
+    repo: https://github.com/moorain/vue-learning-notes.git
     # 服务器上项目部署的目录，会在/www/node-deploy-static下初始化一个production文件夹
     # 配置文件会自动从git上面拉取静态网站代码到此路径
     path: /www/node-deploy-static/production
